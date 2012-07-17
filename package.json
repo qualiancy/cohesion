@@ -1,0 +1,25 @@
+{
+  "author": "Jake Luer <jake@qualiancy.com> (http://qualiancy.com)",
+  "name": "cohesion",
+  "description": "Elegant process clustering.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/qualiancy/cohesion.git"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "make test"
+  },
+  "dependencies": {
+      "debug": "*"
+  },
+  "devDependencies": {
+      "chai": "*"
+    , "mocha": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
