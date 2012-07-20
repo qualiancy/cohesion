@@ -1,6 +1,6 @@
 var child = require('../..').child();
 
-child.on('process', function (n) {
+child.on('calculate', function (n) {
   var delay = Math.floor(Math.random() * 1000);
   setTimeout(function () {
     console.log('%d processed %d', child.pid, n);

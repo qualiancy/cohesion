@@ -17,7 +17,7 @@ master.on('worker', function (worker) {
   worker.on('ready', function () {
     if (count < 30) {
       console.log('sending %d to worker %d', ++count, worker.pid);
-      worker.emit('process', count);
+      worker.emit('calculate', count);
     } else {
       --waiting || done();
     }
