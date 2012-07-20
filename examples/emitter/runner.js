@@ -10,7 +10,7 @@ var cohesion = require('../..')
  */
 
 var script = join(__dirname, 'child.js')
-  , master = new cohesion.Master(script);
+  , master = new cohesion.Master(script)
   , count = 0
   , waiting = master.maxWorkers;
 
@@ -25,7 +25,7 @@ function done () {
 }
 
 /**
- * Lister for when each worker start
+ * Listen for when each worker start
  * and mount a listener for when worker
  * broadcasts ready event.
  */
