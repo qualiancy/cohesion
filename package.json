@@ -12,7 +12,8 @@
     "test": "make test"
   },
   "dependencies": {
-      "debug": "*"
+      "drip": "1.1.x"
+    , "sherlock": "*"
   },
   "devDependencies": {
       "chai": "*"
