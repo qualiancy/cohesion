@@ -2,7 +2,8 @@
  * Wrap current process as cohesion child.
  */
 
-var child = require('../..').child();
+var Child = require('../..').Child;
+var child = new Child();
 
 /**
  * Listen for instructions to do some work.

@@ -1,3 +1,2 @@
-module.exports = process.env.COHESION_COV
-  ? require('./lib-cov/cohesion')
-  : require('./lib/cohesion');
+exports.Master = require('./lib/master');
+exports.Child = require('./lib/child');
